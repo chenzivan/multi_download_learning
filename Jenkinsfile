@@ -1,6 +1,4 @@
 pipeline{
-    agent master
-
     stages {
         stage('Maven Build'){
             steps{
